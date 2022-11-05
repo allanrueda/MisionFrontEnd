@@ -14,13 +14,14 @@ Descripción:
 - Al usuario le llegan correos de notificación para saber el avance de su proceso.
 - La página debe de ser responsive para poderla ver desde el celular.
 - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
-# Prácticas HTML
+
+## Prácticas HTML
 
 Para la práctica de esta semana tendrán que maquetar en HTML el siguiente caso y generar su repositorio con el ejercicio.
 <br>
 Recordemos que solamente se necesita maquetar como un prototipo, **no es necesario que tenga funcionalidad completa en la información**
 
-## **Caso: Pastelería**
+**Caso: Pastelería**
 <br>
 
 Descripción:<br>
