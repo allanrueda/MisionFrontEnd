@@ -1,0 +1,149 @@
+/* ABRG Launch-X 2022 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+html, * {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  align-items: center;
+  background-color: #ffffff;
+  border-top: 40px solid #A1C9A9;
+  border-bottom: 3px solid #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  left: 0;
+  padding-right: 50px;
+  position: fixed;
+  right: 0;
+}
+
+nav li{
+  float: left;
+  list-style: none;
+}
+
+nav a{
+  border-bottom: 3px solid #ffffff;
+  color: #727478;
+  display: block;
+  font-weight: 600;
+  margin-top: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  border-bottom: 3px solid #A1C9A9;
+}
+
+.box-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: none;
+}
+
+.box-title h2 {
+  border-bottom: 2px solid #A1C9A9;
+  font-size: 2em;
+  padding-top: 180px;
+  text-align: center;
+  width: 20%;
+}
+
+#inicio h4{
+  padding: 20px;
+}
+#inicio img {
+  height: 350px;
+  width: 350px;
+}
+
+.box-main{
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.box-info{
+  background-color: #A1C9A9;
+  border: 1px solid #c0c0c0;
+  justify-content: center;
+  font-weight:  bold;
+  font-size: .9em;
+  margin: 40px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  width: 30%;
+}
+
+.box-info img{
+  height:300px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.box-info h3{
+  margin: 5px;
+  padding: 10px;
+}
+
+#pedidos{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+}
+
+
+#pedidos form{
+  background-color: #A1C9A9;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(70, 70, 70);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: 5px;
+  width: 60%;
+}
+.text-box {
+  border: 1px solid #f1f1f1;
+  font-size: large;
+  width: 90%;
+}
+button {
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+}
+#contacto {
+  align-items: center; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+.box-contact {
+  margin: 5px;
+  text-align: center;
+  width: 30%;
+}
+footer {
+  background-color: #A1C9A9;
+  font-size: small;
+  padding: 5px;
+  text-align: center;
+}

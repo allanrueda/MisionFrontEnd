@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Pastelería La Divina</title>
+</head>
+<body>
+  <header>
+    <img alt="la divina" src="./assets/img/logo-la-divina.png" width="100" height="100" />
+    <nav class="menu">
+        <li><a id="menu" href="#">Inicio</a></li>
+        <li><a id="menu" href="#pasteles">Pasteles</a></li>
+        <li><a id="menu" href="#adornos">Adornos</a></li>
+        <li><a id="menu" href="#pedidos">Pedidos</a></li>
+        <li><a id="menu" href="./admin/admin.html">Administrador</a></li>
+    </nav>
+  </article>
+ </header>
+ <section>
+  <article id="inicio" class="box-title">
+      <h2>Bienvenido</h2>
+      <h4>Celebrar un cumpleaños con la familia, el primer aniversario de un nacimiento,
+        cena con los amigos, o porque siempre hay ocasiones para disfrutar de un pastel. <br />
+        Ingredientes naturales y de calidad y de las recetas de siempre, es el unico secreto 
+        de nuestras elaboraciones.
+      </h4>
+      <img alt="cake-inicio" src="./assets/img/pastel-bienvenida.png" />
+  </article>
+
+
+ <article id="pasteles" class="box-title">
+  <h2>Pasteles</h2>
+  <div class="box-main">
+      <div class="box-info">
+          <img src="./assets/img/cake-3-leches.png" alt="">
+          <h3>Pastel de 3 Leches</h3>
+          <h3>Precio: $450</h3>
+      </div>
+      <div class="box-info">
+          <img src="./assets/img/cake-moka.png" alt="">
+          <h3>Pastel de Moka</h3>
+          <h3>Precio: $500</h3>
+      </div>
+      <div class="box-info">
+          <img src="./assets/img/cake-envinado.png" alt="">
+          <h3>Pastel Envinado</h3>
+          <h3>Precio: $250</h3>
+      </div>
+  </div>
+</article>
+
+<article id="adornos" class="box-title">
+  <h2>Adornos</h2>
+  <div class="box-main">
+      <div class="box-info">
+          <img src="./assets/img/vela-chispera.png" alt="">
+          <h3>Vela Chispera</h3>
+          <h3>Precio: $40</h3>
+      </div>
+      <div class="box-info">
+          <img src="./assets/img/figuras.jpg" alt="">
+          <h3><strong>Muñecos</strong> </h3>
+          <h3>Precio: $150</h3>
+      </div>
+      <div class="box-info">
+          <img src="./assets/img/oblea.png" alt="">
+          <h3>Oblea Personalizada</h3>
+          <h3>Precio: $200</h3>
+      </div>
+  </div>
+</article>
+
+<article id="pedidos" class="box-title">
+  <h2>Pedidos</h2><br/>
+  <form action="#">
+  <table cellpadding="10" cellspacing="10">
+    <tr>
+      <td colspan="2" align="center"><h3>Generar Nuevo Pedido</h3> </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="nombre">Nombre:</label>
+      </td>
+      <td>
+        <input id="nombre" class="text-box" type="text" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="telefono">Telefono:</label>
+      </td>
+      <td>
+         <input id="telefono" class="text-box" type="tel" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<label for="email">Email:</label>
+      </td>
+      <td>
+<input id="email" class="text-box" type="email" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<label for="desc">Descripción:</label>
+      </td>
+      <td>
+        <textarea name="" id="" class="text-box" cols="30" rows="10"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<label id="lbl-sabor" for="sabor">Sabor:</label>
+      </td>
+      <td>
+ <select id="sabor" name="sabor" class="text-box">
+          <option value="default">Seleccione una opción</option>
+          <option value="fresa">Tres leches</option>
+          <option value="chocolate">Moka</option>
+          <option value="Vainilla">Vainilla</option>
+          <option value="fresa+choco">Durazno</option>
+          <option value="fresa+vaini">Fresa</option>
+          <option value="choco+vaini">Mil hojas</option>
+          <option value="combinado">Combinado</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td>
+<label id="lbl-adorno" for="adorno">Adorno:</label>
+      </td>
+      <td>
+<select id="adorno" class="text-box" name="adorno">
+          <option value="adorno-opcion">Seleccione una opción</option>
+          <option value="adorno-opcion">Sin adornos</option>
+          <option value="adorno-opcion">Vela chispera</option>
+          <option value="adorno-opcion">Muñecos</option>
+          <option value="adorno-opcion">Oblea personalizada</option>
+      </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <button>Enviar</button>
+        <button>Limpiar</button>
+      </td>
+    </tr>
+  </table>
+</form>
+</article>
+<br />
+<article id="informacion">
+  <br />
+  <hr />
+  <div id="contacto">
+
+    <div class="box-contact">
+        <h4><img src="./assets/img/icons8-region-25.png" alt="" valign="middle"> <strong>Tienda</strong></h4>
+        <p>Pastelería La Divina</p>
+        <p>Avenida Insurgentes Sur 450, Col. Nápoles</p>
+    </div>
+
+    <div class="box-contact">
+      <h4><img src="./assets/img/icons8-clock-25.png" alt="" valign="middle"> <strong>Horarios</strong></h4>
+      <p>Lunes a Viernes de 7:00 a 22:00</p>
+      <p>Sábado y Domingo de 8:00 a 21:00</p>
+    </div>
+
+    <div class="box-contact">
+      <h4><img src="./assets/img/icons8-phone-25.png" alt="" valign="middle"><strong>Contacto</strong></h4>
+      <p>(55) 5678-1234 </p>
+      <p>pastelerialadivina@gmail.com</p>
+    </div>
+
+</div>
+</article>
+ </section>
+ <br /><br />
+ <footer>
+  <h3>Copyright 2022 - ABRG - Launch-X 2022</h3>
+</footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/admin.css">
+  <title>Pastelería La Divina</title>
+</head>
+<body>
+  <header>
+    <img alt="la divina" src="../assets/img/logo-la-divina.png" width="100" height="100" />
+    <nav class="menu">
+        <li><a id="menu" href="../index.html">Inicio</a></li>
+        <li><a id="menu" href="admin.html">Administrador</a></li>
+    </nav>
+  </article>
+ </header>
+ <section>
+  <article id="pasteles" class="box-title">
+    <h2>Inventario de Pasteles</h2>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>FOTO</th>
+          <th>NOMBRE DEL PASTEL</th>
+          <th>DESCRIPCION</th>
+          <th>DISPONIBLES</th>
+          <th>AGREGAR</th>
+          <th>EDITAR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="../assets/img/cake-3-leches.png" width="50" height="50" alt=""> </td>
+          <td>3 Leches</td>
+          <td>Pastel de 3 leches relleno de fruta</td>
+          <td align="center"><strong>15</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un pastel');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><img src="../assets/img/cake-moka.png" width="50" height="50" alt=""> </td>
+          <td>Moka de ensueño</td>
+          <td>Pastel con pan de chocolate y crema de moka</td>
+          <td align="center"><strong>10</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un pastel');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><img src="../assets/img/cake-envinado.png" width="50" height="50" alt=""> </td>
+          <td>Envinado</td>
+          <td>Pastel envinado relleno de fruta</td>
+          <td align="center"><strong>5</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un pastel');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="7">
+            <p align="right"><< < 1 | 2 | 3 > >></p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+</article>
+  <article id="inicio" class="box-title">
+    <h2>Inventario de Adornos</h2>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>FOTO</th>
+          <th>NOMBRE</th>
+          <th>DESCRIPCION</th>
+          <th>DISPONIBLES</th>
+          <th>AGREGAR</th>
+          <th>EDITAR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="../assets/img/cake-3-leches.png" width="50" height="50" alt=""> </td>
+          <td>Vela Chispera</td>
+          <td>Vela pirotécnica que dura 1 minuto y emite chispas de colores.</td>
+          <td align="center"><strong>150</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un adorno');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><img src="../assets/img/figuras.jpg" width="50" height="50" alt=""> </td>
+          <td>Muñecos</td>
+          <td>Muñecos comestibles hechos de azucar de 20cm</td>
+          <td align="center"><strong>80</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un adorno');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><img src="../assets/img/oblea.png" width="50" height="50" alt=""> </td>
+          <td>Oblea de dulce</td>
+          <td>Oblea hecha dulce con la impresión de una imagen personalizada</td>
+          <td align="center"><strong>5</strong></td>
+          <td align="center"><a href="#" onclick="alert('Se agregara un adorno');"><img src="../assets/img/add.png" width="32" height="32" alt=""></a></td>
+          <td align="center"><a href="#"><img src="../assets/img/edit.png" width="32" height="32" alt=""></a></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="7">
+            <p align="right"><< < 1 | 2 | 3 > >></p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+</article>
+  <article id="inicio" class="box-title">
+    <h2>Historial de Pedidos</h2>
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>FOLIO</th>
+          <th>FECHA</th>
+          <th>NOMBRE</th>
+          <th>TELEFONO</th>
+          <th>EMAIL</th>
+          <th>PASTEL</th>
+          <th>ADORNO</th>
+          <th>ESTATUS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01-0101222</td>
+          <td>dd-MM-yyyy</td>
+          <td>Cliente 1</td>
+          <td>(55) 7890-1234</td>
+          <td>correo@electronico.com</td>
+          <td>Moka</td>
+          <td>Vela chispera</td>
+          <td>ENTRGADO</td>
+        </tr>
+        <tr>
+          <td>02-0101222</td>
+          <td>dd-MM-yyyy</td>
+          <td>Cliente 2</td>
+          <td>(55) 7890-1234</td>
+          <td>correo@electronico.com</td>
+          <td>3 Leches</td>
+          <td>Vela chispera</td>
+          <td>ENTRGADO</td>
+        </tr>
+        <tr>
+          <td>03-0101222</td>
+          <td>dd-MM-yyyy</td>
+          <td>Cliente 3</td>
+          <td>(55) 7890-1234</td>
+          <td>correo@electronico.com</td>
+          <td>3 Leches</td>
+          <td>Oblea personalizada</td>
+          <td>ENTRGADO</td>
+        </tr>
+        <tr>
+          <td>04-0101222</td>
+          <td>dd-MM-yyyy</td>
+          <td>Cliente 4</td>
+          <td>(55) 7890-1234</td>
+          <td>correo@electronico.com</td>
+          <td>Envinado</td>
+          <td>Muñeco</td>
+          <td>ENTRGADO</td>
+        </tr>
+        <tr>
+          <td>05-0101222</td>
+          <td>dd-MM-yyyy</td>
+          <td>Cliente 5</td>
+          <td>(55) 7890-1234</td>
+          <td>correo@electronico.com</td>
+          <td>3 Leches</td>
+          <td>Oblea personalizada</td>
+          <td>EN ESPERA</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="8">
+            <p align="right"><< < 1 | 2 | 3 > >></p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+</article>
+ </section>
+ <br /><br />
+ <footer>
+  <h3>Copyright 2022 - ABRG - Launch-X 2022</h3>
+</footer>
+</body>
+</html>
